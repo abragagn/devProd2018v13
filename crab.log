@@ -1,0 +1,130 @@
+DEBUG 2019-05-20 18:00:04,893: 	 Executing command: 'submit'
+DEBUG 2019-05-20 18:00:04,893: 	 Found CRAB cache file /homeui/abragagn/.crab3
+DEBUG 2019-05-20 18:00:04,902: 	 Checking credentials
+DEBUG 2019-05-20 18:00:04,903: 	 Found proxy file /tmp/x509up_u757
+DEBUG 2019-05-20 18:00:04,903: 	 Getting proxy life time left
+DEBUG 2019-05-20 18:00:05,508: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -timeleft
+ output : 690991
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:00:06,213: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -actimeleft
+ output : 690990
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:00:06,213: 	 Proxy lifetime 690991 secs is different from voms extension lifetime 690990 secs for proxy: /tmp/x509up_u757
+DEBUG 2019-05-20 18:00:06,213: 	 Proxy valid for 191:56:30 hours
+INFO 2019-05-20 18:00:06,214: 	 Will use CRAB configuration file crab3_MC_cfg.py
+DEBUG 2019-05-20 18:00:06,214: 	 Loading CRAB configuration file.
+DEBUG 2019-05-20 18:00:06,218: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2019-05-20 18:00:06,219: 	 Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+ERROR 2019-05-20 18:00:06,219: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 161, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 404, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+DEBUG 2019-05-20 18:08:31,905: 	 Executing command: 'submit'
+DEBUG 2019-05-20 18:08:31,906: 	 Found CRAB cache file /homeui/abragagn/.crab3
+DEBUG 2019-05-20 18:08:31,916: 	 Checking credentials
+DEBUG 2019-05-20 18:08:31,916: 	 Found proxy file /tmp/x509up_u757
+DEBUG 2019-05-20 18:08:31,916: 	 Getting proxy life time left
+DEBUG 2019-05-20 18:08:32,521: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -timeleft
+ output : 691184
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:08:33,126: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -actimeleft
+ output : 691183
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:08:33,127: 	 Proxy lifetime 691184 secs is different from voms extension lifetime 691183 secs for proxy: /tmp/x509up_u757
+DEBUG 2019-05-20 18:08:33,127: 	 Proxy valid for 191:59:43 hours
+INFO 2019-05-20 18:08:33,127: 	 Will use CRAB configuration file crab3_MC_cfg.py
+DEBUG 2019-05-20 18:08:33,127: 	 Loading CRAB configuration file.
+DEBUG 2019-05-20 18:08:33,132: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2019-05-20 18:08:33,133: 	 Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+ERROR 2019-05-20 18:08:33,133: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 161, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 404, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+DEBUG 2019-05-20 18:28:09,181: 	 Executing command: 'submit'
+DEBUG 2019-05-20 18:28:09,181: 	 Found CRAB cache file /homeui/abragagn/.crab3
+DEBUG 2019-05-20 18:28:09,194: 	 Checking credentials
+DEBUG 2019-05-20 18:28:09,194: 	 Found proxy file /tmp/x509up_u757
+DEBUG 2019-05-20 18:28:09,194: 	 Getting proxy life time left
+DEBUG 2019-05-20 18:28:09,900: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -timeleft
+ output : 691158
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:28:10,606: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u757 -actimeleft
+ output : 691157
+
+ error: 
+ retcode : 0
+DEBUG 2019-05-20 18:28:10,606: 	 Proxy lifetime 691158 secs is different from voms extension lifetime 691157 secs for proxy: /tmp/x509up_u757
+DEBUG 2019-05-20 18:28:10,606: 	 Proxy valid for 191:59:17 hours
+INFO 2019-05-20 18:28:10,607: 	 Will use CRAB configuration file crab3_MC_cfg.py
+DEBUG 2019-05-20 18:28:10,607: 	 Loading CRAB configuration file.
+DEBUG 2019-05-20 18:28:10,611: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2019-05-20 18:28:10,612: 	 Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+ERROR 2019-05-20 18:28:10,612: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 161, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/ClientUtilities.py", line 404, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/lustre/cmswork/abragagn/devProd2018v13/src/PDAnalysis/EDM/bin/crab3_projects/crab_BsToJpsiPhi_DG0_2018_test' already exists 
+Please change the requestName in the config file
+DEBUG 2019-05-21 10:35:30,575: 	 Executing command: 'status'
+DEBUG 2019-05-21 10:35:30,576: 	 Found CRAB cache file /homeui/abragagn/.crab3
+ERROR 2019-05-21 10:35:30,577: 	 Error: /crab3_projects/crab_BsToJpsiPhi_DG0_2018_test is not a valid CRAB project directory.
+ERROR 2019-05-21 10:35:30,578: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 161, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/status.py", line 40, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 268, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1904/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 586, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: /crab3_projects/crab_BsToJpsiPhi_DG0_2018_test is not a valid CRAB project directory.
